@@ -5,6 +5,7 @@ import "../styles/HomePage.css";
 import usericon from "../assets/user-icon.avif";
 
 import Motto from "./utils/Motto";
+import UserReviews from "./utils/UserReviews";
 
 const HomePage = () => {
     return (
@@ -20,7 +21,7 @@ const HomePage = () => {
 
 export default HomePage;
 
-const UserReviews = () => {
+const UserReviews1 = () => {
     return (
         <div className="reviews-container">
             <div className="review">
