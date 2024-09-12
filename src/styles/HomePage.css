@@ -1,11 +1,10 @@
 .homepage {
     display: flex;
     flex-direction: column;
-    gap: 2vw;
+    gap: 2vh;
 }
 
 .motto-container {
-    border: 1px solid red;
     margin-top: 10vw;
     display: flex;
 
@@ -57,17 +56,38 @@
 }
 
 @media (max-width: 790px) {
+    .homepage {
+        gap: 6vh;
+    }
     .motto-container {
         flex-direction: column;
     }
 
     .motto h1 {
-        line-height: 1.1;
+        line-height: 1;
         font-size: 1.5rem;
     }
 
     .motto span {
         font-size: 0.93rem;
         line-height: 1.5;
+    }
+}
+
+@media (max-width: 481px) {
+    .homepage {
+        gap: 8vh;
+    }
+    .motto-container {
+        flex-direction: column;
+    }
+
+    .motto h1 {
+        line-height: 0.8;
+        font-size: 1.2rem;
+    }
+
+    .motto span {
+        font-size: 0.9rem;
     }
 }
