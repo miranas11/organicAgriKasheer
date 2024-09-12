@@ -137,29 +137,29 @@
 /* For screens below 481px (mobile) */
 @media (max-width: 481px) {
     .reviews-container {
-        height: 45vw;
+        height: 55vw;
     }
 
     .user-photo-container {
         display: none;
     }
     .user-name {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
     .user-review-box {
         padding: 0px 40px;
     }
 
     .review-product-name {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .review-data {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .prev,
     .next {
         font-size: 1.5rem;
-        padding: 8px;
+        padding: 3px;
     }
 }
