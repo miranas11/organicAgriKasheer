@@ -2,49 +2,45 @@ import React from "react";
 import SlideShow from "./utils/SlideShow";
 import "../styles/HomePage.css";
 
-import myVideo from "../assets/video.mp4";
+import usericon from "../assets/user-icon.avif";
+
+import Motto from "./utils/Motto";
 
 const HomePage = () => {
     return (
-        <div className="homepage">
+        <>
             <SlideShow />
-            <div className="motto-container">
-                <div className="motto">
-                    <div className="last">
-                        <h1>HEALTHY CONSCIOUS LIVING</h1>
-                        <span>
-                            Healthy Conscious Living includes conscious business
-                            practices to ensure our impact on our world and
-                            communities is a positive one. At the foundation of
-                            ORGANIC INDIA’s products, company, and sourcing is
-                            regenerative agriculture that not only sustains but
-                            replenishes the earth; fair trade practices that
-                            support and honour farmer partners with equitable
-                            wages, health care, and ongoing organic agricultural
-                            training; and a LEED Platinum certified production
-                            facility that is a marvel of top-tier sustainable
-                            design, construction, and operations. This all
-                            culminates in the creation of Organic, Non-GMO
-                            herbal teas and supplements that support the health
-                            of the population, the vibrancy of the planet, and
-                            the livelihood of communities in India.
-                        </span>
+            <div className="homepage">
+                <Motto />
+                <UserReviews />
+            </div>
+        </>
+    );
+};
+
+export default HomePage;
+
+const UserReviews = () => {
+    return (
+        <div className="reviews-container">
+            <div className="review">
+                <div className="user-photo-container">
+                    <div className="user-photo-frame">
+                        <img src={usericon} className="user-icon" alt="User" />
                     </div>
                 </div>
-
-                <div className="motto-video">
-                    <div className="last">
-                        <div className="video-container">
-                            <video width="100%" height="auto" controls>
-                                <source src={myVideo} type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
+                <div className="user-review">
+                    <div className="user-review-box">
+                        <div className="review-product-name">Gajar Anchar</div>
+                        <div className="review-data">
+                            jkh hajsfj asdfhjkh hasdfhkj ahdhfkjahs hsadj
+                            hkahska adskasfaskj kahsjfdhjakfkja sjkhfdah fdkjh
+                            fkjlha s
                         </div>
-                    </div>{" "}
+                        <div className="user-name">Mir Anas</div>
+                    </div>
                 </div>
             </div>
         </div>
     );
 };
-
-export default HomePage;
