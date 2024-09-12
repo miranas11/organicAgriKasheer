@@ -6,6 +6,7 @@ import usericon from "../assets/user-icon.avif";
 
 import Motto from "./utils/Motto";
 import UserReviews from "./utils/UserReviews";
+import Footer from "./utils/Footer";
 
 const HomePage = () => {
     return (
@@ -15,6 +16,7 @@ const HomePage = () => {
                 <Motto />
                 <UserReviews />
             </div>
+            <Footer />
         </>
     );
 };

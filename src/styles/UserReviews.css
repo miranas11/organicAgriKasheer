@@ -54,6 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 50px;
 }
 
 .user-review-box {
@@ -145,6 +146,10 @@
     }
     .user-name {
         font-size: 0.8rem;
+    }
+
+    .user-review {
+        margin: 0;
     }
     .user-review-box {
         padding: 0px 40px;
