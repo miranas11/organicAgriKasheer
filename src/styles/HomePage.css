@@ -1,3 +1,61 @@
-.carousel .slide img {
-    width: 100%;
+.homepage {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.motto-container {
+    border: 1px solid red;
+    margin-top: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 8%;
+}
+
+.motto {
+    flex: 1;
+    line-height: 1.6;
+}
+
+.motto-video {
+    flex: 1;
+}
+
+.motto h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.motto span {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.8;
+    font-weight: 400;
+    text-align: left;
+}
+
+.last {
+    padding: 5% 10%;
+}
+
+@media (max-width: 992px) {
+    .motto h1 {
+        font-size: 1.8rem;
+    }
+
+    .motto span {
+        font-size: 0.96rem;
+    }
+
+    .motto-container {
+        padding: 0;
+    }
+}
+
+@media (max-width: 790px) {
+    .motto-container {
+        flex-direction: column;
+    }
 }
