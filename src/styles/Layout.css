@@ -82,3 +82,10 @@
         color: #666;
     }
 }
+
+@media (max-width: 480px) {
+    .logo {
+        width: 70px;
+        height: auto;
+    }
+}
