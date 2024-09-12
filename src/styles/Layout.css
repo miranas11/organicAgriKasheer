@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #6c7d5d;
+    background-color: #e0deca;
     position: fixed;
     top: 0;
     left: 0;
@@ -29,7 +29,7 @@
 
 .extra {
     flex: 1;
-    border: 1px solid yellow;
+    border: 1px solid red;
 }
 
 .logo {
@@ -40,8 +40,8 @@
 .navbar-item a {
     text-decoration: none;
     font-size: 17px;
-    font-weight: 400;
-    color: #f6efdd;
+    font-weight: 500;
+    color: #6c7d5d;
 }
 
 .navbar-item a:hover {
